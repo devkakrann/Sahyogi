@@ -1,0 +1,29 @@
+{
+  "name": "sahayak-ai",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/dev-all.js",
+    "live": "node scripts/dev-all.js",
+    "dev:client": "npm run dev --prefix client",
+    "dev:server": "npm run dev --prefix server",
+    "build:client": "npm run build --prefix client",
+    "start:server": "npm run start --prefix server",
+    "build": "npm run build --prefix client",
+    "preview": "npm run preview --prefix client"
+  },
+  "dependencies": {
+    "@react-google-maps/api": "^2.20.8",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "mongoose": "^9.4.1",
+    "openai": "^6.33.0",
+    "socket.io": "^4.8.3"
+  },
+  "version": "1.0.0",
+  "description": "Sahayak is a split-repo demo app with a Vite client in `client/` and an Express plus Socket.IO backend in `server/`.",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,15 @@
+SAHAYAK AI - WINDOWS SETUP
+
+1. Install Node.js LTS (Node 20+ recommended).
+2. Install MongoDB Community Server and make sure MongoDB is running.
+3. Extract this ZIP.
+4. Double-click RUN-WINDOWS.bat.
+5. Open http://localhost:5173
+
+Backend: http://localhost:3001
+Health:  http://localhost:3001/health
+
+The project is configured for local MongoDB:
+mongodb://127.0.0.1:27017/sahayak
+
+Google Maps, Twilio and external AI credentials are optional for the basic local demo. Features requiring those services need their respective API credentials.
