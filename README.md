@@ -158,10 +158,10 @@ node scripts/seed.js
 
 ## Vision
 
-Sahayak transforms scattered efforts into a connected, efficient support system that ensures:
+Sahayogi transforms scattered efforts into a connected, efficient support system that ensures:
 
 - The right help
 - Reaches the right person
 - At the right time
 
-Crafted with 🔥 by the team ASUR
+Crafted with ❤️ by the team binary minds
